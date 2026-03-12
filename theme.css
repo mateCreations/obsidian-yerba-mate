@@ -1,0 +1,141 @@
+/* Yerba Mate — Obsidian Theme */
+/* Dark: Yerba Mate · Light: Tererê */
+
+/* ── Dark Mode ─────────────────────────────────────────────────────────────── */
+.theme-dark {
+  --background-primary:         #1c1e13;
+  --background-primary-alt:     #282d1c;
+  --background-secondary:       #282d1c;
+  --background-secondary-alt:   #363c26;
+
+  --text-normal:                #dce0d9;
+  --text-muted:                 color-mix(in srgb, #dce0d9 65%, transparent);
+  --text-faint:                 color-mix(in srgb, #dce0d9 45%, transparent);
+
+  --text-accent:                #a67c52;
+  --text-accent-hover:          #c09060;
+  --interactive-accent:         #a67c52;
+  --interactive-accent-hover:   #c09060;
+
+  --text-link:                  #7eb2d1;
+
+  --text-title-h1:              #c25d44;
+  --text-title-h2:              #8fb339;
+  --text-title-h3:              #a67c52;
+  --text-title-h4:              #7eb2d1;
+  --text-title-h5:              #b07878;
+  --text-title-h6:              #5ea89a;
+
+  --text-selection:             #4f5b4a;
+  --background-modifier-border: #4f5b4a;
+
+  --code-normal:                #5ea89a;
+  --code-background:            #282d1c;
+
+  --text-error:                 #c25d44;
+  --text-success:               #8fb339;
+
+  --tag-color:                  #5ea89a;
+  --tag-background:             #363c26;
+
+  --graph-line:                 #4f5b4a;
+  --graph-node:                 #a67c52;
+  --graph-node-focused:         #7eb2d1;
+  --graph-node-tag:             #5ea89a;
+  --graph-node-attachment:      #8fb339;
+
+  --scrollbar-thumb-bg:         #4f5b4a;
+  --modal-background:           #282d1c;
+}
+
+/* ── Light Mode ────────────────────────────────────────────────────────────── */
+.theme-light {
+  --background-primary:         #fbf1c7;
+  --background-primary-alt:     #ebdfb0;
+  --background-secondary:       #ebdfb0;
+  --background-secondary-alt:   #ddd2a0;
+
+  --text-normal:                #3c3836;
+  --text-muted:                 color-mix(in srgb, #3c3836 65%, transparent);
+  --text-faint:                 color-mix(in srgb, #3c3836 45%, transparent);
+
+  --text-accent:                #b57614;
+  --text-accent-hover:          #c88010;
+  --interactive-accent:         #b57614;
+  --interactive-accent-hover:   #c88010;
+
+  --text-link:                  #076678;
+
+  --text-title-h1:              #9d0006;
+  --text-title-h2:              #b57614;
+  --text-title-h3:              #79740e;
+  --text-title-h4:              #076678;
+  --text-title-h5:              #8f3f71;
+  --text-title-h6:              #427b58;
+
+  --text-selection:             #ddd2a0;
+  --background-modifier-border: #928374;
+
+  --code-normal:                #427b58;
+  --code-background:            #ebdfb0;
+
+  --text-error:                 #9d0006;
+  --text-success:               #79740e;
+
+  --tag-color:                  #427b58;
+  --tag-background:             #ddd2a0;
+
+  --graph-line:                 #928374;
+  --graph-node:                 #b57614;
+  --graph-node-focused:         #076678;
+  --graph-node-tag:             #427b58;
+  --graph-node-attachment:      #79740e;
+
+  --scrollbar-thumb-bg:         #928374;
+  --modal-background:           #ebdfb0;
+}
+
+/* ── Headings ──────────────────────────────────────────────────────────────── */
+.cm-header-1, .markdown-rendered h1 { color: var(--text-title-h1); }
+.cm-header-2, .markdown-rendered h2 { color: var(--text-title-h2); }
+.cm-header-3, .markdown-rendered h3 { color: var(--text-title-h3); }
+.cm-header-4, .markdown-rendered h4 { color: var(--text-title-h4); }
+.cm-header-5, .markdown-rendered h5 { color: var(--text-title-h5); }
+.cm-header-6, .markdown-rendered h6 { color: var(--text-title-h6); }
+
+/* ── Code ──────────────────────────────────────────────────────────────────── */
+.markdown-rendered code {
+  color: var(--code-normal);
+  background-color: var(--code-background);
+}
+
+/* ── Syntax ────────────────────────────────────────────────────────────────── */
+.theme-dark .cm-s-obsidian span.cm-keyword  { color: #c25d44; }
+.theme-dark .cm-s-obsidian span.cm-string   { color: #8fb339; }
+.theme-dark .cm-s-obsidian span.cm-number   { color: #a67c52; }
+.theme-dark .cm-s-obsidian span.cm-comment  { color: #4f5b4a; }
+.theme-dark .cm-s-obsidian span.cm-operator { color: #7eb2d1; }
+.theme-dark .cm-s-obsidian span.cm-def      { color: #7eb2d1; }
+
+.theme-light .cm-s-obsidian span.cm-keyword  { color: #9d0006; }
+.theme-light .cm-s-obsidian span.cm-string   { color: #79740e; }
+.theme-light .cm-s-obsidian span.cm-number   { color: #b57614; }
+.theme-light .cm-s-obsidian span.cm-comment  { color: #928374; }
+.theme-light .cm-s-obsidian span.cm-operator { color: #076678; }
+.theme-light .cm-s-obsidian span.cm-def      { color: #076678; }
+
+/* ── Links ─────────────────────────────────────────────────────────────────── */
+.markdown-rendered a {
+  color: var(--text-link);
+}
+
+/* ── Blockquotes ───────────────────────────────────────────────────────────── */
+.theme-dark  .markdown-rendered blockquote { border-left-color: #a67c52; }
+.theme-light .markdown-rendered blockquote { border-left-color: #b57614; }
+
+/* ── Active elements ───────────────────────────────────────────────────────── */
+.workspace-leaf.mod-active .workspace-leaf-header-title,
+.nav-file-title.is-active,
+.search-result-file-title {
+  color: var(--interactive-accent);
+}

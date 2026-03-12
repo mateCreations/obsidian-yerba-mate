@@ -1,7 +1,7 @@
 # Yerba Mate — Obsidian Theme
 
 <p align="center">
-  <img width="120" src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/main/images/logo.jpg" alt="Mate" />
+  <img width="120" src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/master/images/logo.jpg" alt="Mate" />
 </p>
 
 Dark and light theme pair for [Obsidian](https://obsidian.md), inspired by mate culture.
@@ -31,7 +31,7 @@ Then in Obsidian → Settings → Appearance → Themes, select **Yerba Mate**.
 ### Dark — Yerba Mate
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/main/images/palette-yerba-mate.png" alt="Yerba Mate palette" />
+  <img src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/master/images/palette-yerba-mate.png" alt="Yerba Mate palette" />
 </p>
 
 | Role       | Color     |
@@ -46,7 +46,7 @@ Then in Obsidian → Settings → Appearance → Themes, select **Yerba Mate**.
 ### Light — Tererê
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/main/images/palette-terere.png" alt="Tererê palette" />
+  <img src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/master/images/palette-terere.png" alt="Tererê palette" />
 </p>
 
 | Role       | Color     |

@@ -1,5 +1,9 @@
 # Yerba Mate — Obsidian Theme
 
+<p align="center">
+  <img width="120" src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/main/images/logo.jpg" alt="Mate" />
+</p>
+
 Dark and light theme pair for [Obsidian](https://obsidian.md), inspired by mate culture.
 
 - **Dark** (Yerba Mate): deep olive-carbon background with ochre, metal blue, and mate-green accents
@@ -16,7 +20,7 @@ Dark and light theme pair for [Obsidian](https://obsidian.md), inspired by mate 
 ### Manual
 
 ```bash
-git clone https://github.com/nfvelten/obsidian-yerba-mate \
+git clone https://github.com/mateCreations/obsidian-yerba-mate \
   /path/to/your/vault/.obsidian/themes/Yerba\ Mate
 ```
 
@@ -25,6 +29,10 @@ Then in Obsidian → Settings → Appearance → Themes, select **Yerba Mate**.
 ## Palettes
 
 ### Dark — Yerba Mate
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/main/images/palette-yerba-mate.png" alt="Yerba Mate palette" />
+</p>
 
 | Role       | Color     |
 |------------|-----------|
@@ -37,6 +45,10 @@ Then in Obsidian → Settings → Appearance → Themes, select **Yerba Mate**.
 
 ### Light — Tererê
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/main/images/palette-terere.png" alt="Tererê palette" />
+</p>
+
 | Role       | Color     |
 |------------|-----------|
 | Background | `#fbf1c7` |
@@ -48,6 +60,6 @@ Then in Obsidian → Settings → Appearance → Themes, select **Yerba Mate**.
 
 ## Companion
 
-- Neovim colorscheme: [yerba-mate.nvim](https://github.com/nfvelten/yerba-mate.nvim)
-- Omarchy system theme (dark): [omarchy-yerba-mate](https://github.com/nfvelten/omarchy-yerba-mate)
-- Omarchy system theme (light): [omarchy-terere](https://github.com/nfvelten/omarchy-terere)
+- Neovim colorscheme: [yerba-mate.nvim](https://github.com/mateCreations/yerba-mate.nvim)
+- Omarchy system theme (dark): [omarchy-yerba-mate](https://github.com/mateCreations/omarchy-yerba-mate)
+- Omarchy system theme (light): [omarchy-terere](https://github.com/mateCreations/omarchy-terere)

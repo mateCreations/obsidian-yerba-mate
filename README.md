@@ -1,7 +1,7 @@
 # Yerba Mate — Obsidian Theme
 
 <p align="center">
-  <img width="120" src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/master/images/logo.jpg" alt="Mate" />
+  <img width="120" src="https://raw.githubusercontent.com/mateCreations/obsidian-yerba-mate/master/images/logo.png" alt="Mate" />
 </p>
 
 Dark and light theme pair for [Obsidian](https://obsidian.md), inspired by mate culture.
